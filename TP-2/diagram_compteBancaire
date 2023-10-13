@@ -1,0 +1,11 @@
+  +----------------------+
+  |   CompteBancaire     |
+  +----------------------+
+  | - nom: String        |
+  | - solde: float       |
+  +----------------------+
+  | + __construct(nom: String = 'Dupont', solde: float = 1000) |
+  | + depot(somme: float)                                      |
+  | + retrait(somme: float)                                    |
+  | + affiche(): void                                          |
+  +----------------------+

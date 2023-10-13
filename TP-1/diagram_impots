@@ -1,0 +1,13 @@
+  +---------------------+
+  |      Impot          |
+  +---------------------+
+  | - nom: String       |
+  | - revenu: float     |
+  | + TAUX_FAIBLE: 0.15 |
+  | + TAUX_ELEVE: 0.20  |
+  | + SEUIL: 15000      |
+  +---------------------+
+  | + __construct(nom: String, revenu: float)  |
+  | + CalculeImpot(): float                    |
+  | + AfficheImpot(): String                   |
+  +---------------------+
